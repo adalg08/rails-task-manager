@@ -1,0 +1,8 @@
+<div class="container text-center">
+  <h1><%= @task.title %></h1>
+  <h3><%= @task.description %></h3>
+  <p><%= "Create at: #{@task.created_at}" %></p>
+  <p><%= "Update at: #{@task.updated_at}" %></p>
+  <%= link_to "Go back to tasks list", tasks_path %>
+</div>
+
